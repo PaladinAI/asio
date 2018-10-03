@@ -25,5 +25,6 @@ updated, we're using Asio version 1.11. Make sure to checkout that branch before
 making any changes. To update the package, update the version number in
 `conanfile.py` then run:
 
+    git checkout asio-1-11-0
     conan create . paladin/develop
     conan upload asio/1.11.0@paladin/develop -r paladin
